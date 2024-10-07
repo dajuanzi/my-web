@@ -1,0 +1,40 @@
+/* Introduction Container: Flexbox for 7:3 layout */
+.introduction-container {
+    display: flex;
+    justify-content: space-between; /* Push text left and image right */
+    align-items: center; /* Vertically center both sections */
+    height: 100%; /* Fill the full height of the section */
+    padding: 20px;
+  }
+  
+  /* Left Section (Text) */
+  .introduction-text {
+    flex: 7; /* 70% of the width */
+    text-align: left;
+  }
+  
+  .introduction-text h1 {
+    font-size: 3rem; /* Large name font */
+    margin: 0;
+  }
+  
+  .introduction-text p {
+    font-size: 1.5rem; /* Subtitle font size */
+    margin: 10px 0 0;
+  }
+  
+  /* Right Section (Image) */
+  .introduction-image {
+    flex: 3; /* 30% of the width */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+  }
+  
+  .introduction-image img {
+    max-width: 100%; /* Responsive image size */
+    max-height: 70vh; /* Set a maximum height to avoid overflow */
+    border-radius: 0; /* Example: make it a circular profile pic */
+    object-fit: cover;
+  }
+  

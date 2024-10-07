@@ -1,0 +1,91 @@
+/* Ensure the body and html take up 100% height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-arrow {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: white;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* General Navigation Bar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+
+/* General section styling */
+/* General Section Styling */
+.section {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* For text contrast */
+}
+
+
+/* Introduction Section with a background color */
+.intro-section {
+  background-color: #1E90FF; /* Example color */
+}
+
+/* Timeline Section with a background image */
+.timeline-section {
+  background-image: url('/images/timeline-bg.jpg'); /* Add your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Social Links Section with another background color */
+.social-section {
+  background-color: #333333;
+}
