@@ -4,16 +4,16 @@ import '../styles/Introduction.css'; // Import CSS for styling
 const loadImages = () => {
   // Array of profile pictures
   const imageNames = [
-    'IMG_5719.JPG',
-    'IMG_5720.JPG',
-    'IMG_5721.JPG',
-    'IMG_5722.JPG',
-    'IMG_5723.JPG',
-    'IMG_5724.JPG',
-    'IMG_5725.JPG',
-    'IMG_5726.JPG',
-    'IMG_5727.JPG',
-    'IMG_5728.JPG',
+    'IMG_5734.PNG',
+    'IMG_5735.PNG',
+    'IMG_5736.PNG',
+    'IMG_5737.PNG',
+    'IMG_5738.PNG',
+    'IMG_5739.PNG',
+    'IMG_5740.PNG',
+    'IMG_5741.PNG',
+    'IMG_5742.PNG',
+    'IMG_5743.PNG',
     // Add the rest of your image names here
   ];
 
@@ -37,8 +37,8 @@ const Introduction = () => {
     <div className="introduction-container">
       {/* Left Section: Name and Title */}
       <div className="introduction-text">
-        <h1>John Doe</h1>
-        <p>AI Engineer | Tech Speaker | Innovator</p>
+        <h1>Daniella Zhou</h1>
+        <p> {"I'm an AI Engineer who build future >_>"}</p>
       </div>
 
       {/* Right Section: Profile Picture */}
